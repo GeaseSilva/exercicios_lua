@@ -101,4 +101,95 @@ else
     print("Sexo inválido")
 end]]
 
------------- Exercício 
+------------ Exercício 023 ---------------
+
+--[[print("Digite sua primeira nota")
+local nota1 = tonumber(io.read())
+print("Digite sua segunda nota")
+local nota2 = tonumber(io.read())
+print("Digite sua terceira nota")
+local nota3 = tonumber(io.read())
+print("Digite sua quarta nota")
+local nota4 = tonumber(io.read())
+
+local media = tonumber(7)
+local somaNotas = nota1+nota2+nota3+nota4/4
+
+if somaNotas >= media then
+    print("Aprovado")
+else
+    print("Burro pa caraio")
+end]]
+
+---------- Exercício 35 ---------
+
+--[[print("Digite o ano: ")
+local ano = tonumber(io.read())
+
+if ano % 4 == 0 then
+    print("Este e um ano bixesto")
+else
+    print("Este nao e um ano bixesto")
+end]]
+
+------------- Exercício 047 -----------
+--[[::denovo::
+print("Digite seu nome de usuário")
+local nome = io.read()
+print("Digite uma senha")
+local senha =  io.read()
+
+if nome == senha then
+    print("A senha nao pode ser igual ao nome, insira novamente")
+    goto denovo
+else
+        print("login criado") 
+    end]]
+
+------------ Exercício 047 ----------
+--[[::inicio::
+print("Digite uma nota: (0-10)")
+local nota = tonumber(io.read())
+
+if nota < 0 or nota > 10 then
+    print("Insira uma nota válida")
+    goto inicio
+else
+    print("sua nota e " ..nota)
+end]]
+
+------ Exercício 51 --------
+--[[local numero = tonumber(1)
+
+for numero = 0,20,1 do
+    io.write(numero.." ")
+end]]
+
+------- Exercício 57 ---------
+--[[print("Digite um número que irá multiplicar por 5")
+local num = tonumber(io.read())
+local res = num * 5
+
+print(res)]]
+
+--[[::inicio::
+print("Digite um numero de 0-10")
+local num = tonumber(io.read())
+local mult = tonumber(5)
+
+if num < 0 or num > 10 then
+    print("Apenas numeros entre 0-10")
+    goto inicio
+else
+    local res = num * mult
+    print(res)
+end]]
+
+--[[print("Digite um num:")
+local valor = tonumber(io.read())
+
+for num = 1, 10 do 
+    print(valor.. " X " ..num.. " = "..valor*num)
+end]]
+
+----------- 
